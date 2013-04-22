@@ -1,4 +1,4 @@
-module ODFReport
+module DOCXReport
 
   class Text < Field
 

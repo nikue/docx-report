@@ -1,4 +1,4 @@
-module ODFReport
+module DOCXReport
 
   module Fields
 
@@ -32,7 +32,7 @@ module ODFReport
 
     def odf_linebreak(s)
       return "" unless s
-      s.to_s.gsub("\n", "<text:line-break/>")
+      s.to_s.gsub("\n", "</w:t><w:br/><w:t xml:space='preserve'>")
     end
 
   end

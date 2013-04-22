@@ -1,4 +1,4 @@
-module ODFReport
+module DOCXReport
 
   class Section
     include Fields, Nested
